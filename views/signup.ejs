@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Login Page</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+    </head> 
+	<body>
+		<h1 id="resultHere"></h1>
+        <ul uk-tab>
+            <li><a href="#">Signup</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        
+        <ul class="uk-switcher uk-margin">
+            <li>
+                <input class="uk-input uk-width-1-2" id="Firstname" type="text" placeholder="Input">
+                <input class="uk-input uk-width-1-2" id="Lastname" type="text" placeholder="Input">
+                <input class="uk-input uk-width-1-2" id="EmailSignup" type="email" placeholder="email">
+                <input class="uk-input uk-width-1-2" id="passwordSignup" type="password"  placeholder="password" >
+                <button id="SignupButton">Signup</button>
+            </li>
+           <li>
+            <input class="uk-input uk-width-1-2" id="emailLogin" type="email" placeholder="email">
+            <input class="uk-input uk-width-1-2" id="passwordLogin" type="password"  placeholder="password" >
+            <button id="LoginButton">Login</button>
+            <a href="/forgot">Forgot Password</a>
+        
+            </li>
+        </ul>
+
+        
+
+        <link rel="stylesheet" href="/css/app.css">
+        
+		<script src="js/uikit.min.js"></script>
+		<script src="js/uikit-icons.min.js"></script>
+        <script src="js/app.js"></script>
+        
+	</body>
+</html>
